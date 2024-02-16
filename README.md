@@ -377,7 +377,9 @@ A simulação contém um teste de lógica de saldo/limite que extrapola o que é
 
 ## Critérios para Vencer A Rinha de Backend
 
-Surpresa! :)
+1. Não ter nenhum erro de lógica que afete o resultado final
+2. Seguir corretamente todas as regras
+3. Ter o menor p75 geral (métrica que indica que 75% das respostas tem até esse valor, ou seja, se 75% das requests para sua API tem resposta em até 2s, esse vai ser seu p75)
 
 
 ## Acompanhamento do Status das Execuções dos Testes
